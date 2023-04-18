@@ -1,0 +1,56 @@
+
+<html>
+<head>
+ <title>Registration Form</title>
+ <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<h1>Register Here</h1>
+<form name="f1" action="test.php" method="post">
+<table class="t">
+<tr><td>Name:</td>
+    <td><input type="text" name="nm" placeholder="Enter Your Name" required="required"></td>
+</tr>
+<tr><td>Email:</td>
+    <td><input type="email" name="eid" placeholder="Enter mail id" required="required"></td>
+</tr>
+<tr><td>Password:</td>
+    <td><input type="password" name="pwd" required="required"></td>
+</tr>
+<tr><td>DOB:</td>
+    <td><input type="date" name="dob"></td>
+</tr>
+<tr><td>Branch:</td>
+    <td><input type="radio" name="br" value="CSE" >CSE<input type="radio" name="br" value="ECE">ECE<input type="radio" name="br" value="EEE">EEE<br><input type="radio" name="br" value="IT">IT<input type="radio" name="br" value="CIV">CIV<input type="radio" name="br" value="MECH">MECH</td>
+</tr>
+<tr><td>Gender:</td>
+    <td><input type="radio" name="gen" value="Male">M<input type="radio" name="gen" value="Female">F</td>
+</tr>
+<tr><td>Religion:</td>
+    <td>
+        <select class="rel" name="rel">
+             <option value="hin">Hindu</option>
+             <option value="ch">Christian</option>
+             <option value="M">Muslim</option>
+        </select>
+    </td>
+</tr>
+<tr><td>Languages:</td>
+    <td><input type="checkbox" name="lan" value="English">English<input type="checkbox" name="lan" value="Telugu">Telugu</td>
+</tr>
+<tr>
+    <td>Resume:</td>
+    <td><input class="f" type="file"></td>
+</tr>
+<tr><td>Address:</td>
+    <td><textarea rows="5" col="10" name="ar"></textarea></td>
+</tr>
+<tr>
+    <td><input class="buttons" type="submit" name="submit"></td>
+    <td><input class="buttons" type="reset" name="reset"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+

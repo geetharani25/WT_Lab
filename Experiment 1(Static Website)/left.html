@@ -1,0 +1,38 @@
+<html>
+  <body bgcolor="lightblue">
+  <h3>Contents</h3>
+  <ol>
+      <a href="listinfo.html" target="right"><li>College Details</li>
+      <a href="tableinfo.html" target="right"><li>Time Tables</li>      
+      <a href="form.html" target="right"><li>Registration Form</li>
+        <li>
+          <a href="#" id="jcode" target="right">Java Script</a><br>
+          <select id="jcs">
+            <option value="k" selected="selected">select an application</option>
+            <option value="game">Number Guessing game</option>
+            <option value="game1">Rock Paper Scissors</option>
+            <option value="bill">Bill Generation</option>
+          </select>
+        </li>
+        <script>
+          const jcl=document.getElementById("jcode");
+          const jcsel=document.getElementById("jcs");
+          jcsel.addEventListener("change",function()
+          {
+            if(jcsel.value=="game"){
+              const gameUrl="game.html";
+              parent.right.location.href=gameUrl;
+            }
+            else if(jcsel.value=="bill"){
+              const billUrl="billgen.html";
+              parent.right.location.href=billUrl;
+            }
+            else if(jcsel.value=="game1"){
+              const game1Url="game1.html";
+              parent.right.location.href=game1Url;
+            }
+          });
+        </script>
+  </ol>
+</body>
+</html>

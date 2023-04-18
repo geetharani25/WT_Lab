@@ -1,0 +1,58 @@
+.b {
+	margin:100px;
+	padding: 20px;
+    background-image: url("billimg1.jpg");
+    background-size:cover;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+label {
+	display: block;
+	margin-right: 100px;
+    color: white;
+    font-size: large;
+}
+.ta{
+    margin-left:500px;
+    text-align: center;
+}
+.s{
+    margin-bottom: 20px;
+    padding:10px;
+    background-color:lightblue;
+    border-color:blue;
+    border-width: 3px;
+}
+.s:hover {
+    background-color:palevioletred;
+}
+button {
+	margin-top: 20px;
+}
+#total-container {
+	text-align: center;
+	margin-top: 20px;
+}
+#submit-btn{
+    margin-left:580px;
+    text-align: center;
+    font-size: x-large;
+    background-color:turquoise;
+    border-color:red;
+    color:red;
+}
+#submit-btn:hover {
+    background-color:palevioletred;
+}
+#tr{
+    color: white;
+    text-align: center;
+    text-shadow: 10px;
+    font-size:xx-large;
+}
+#total {
+	font-weight: bold;
+    color: lightblue;
+}

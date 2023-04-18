@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <button id="button" onclick="f1()"onmouseover="f2()" >This is a paragraph</button>
+        <p onclick="f3()" onmouseover="f2()">kahdjhfgkjfgjhgsdfjkmjfgmjsh</p>
+    </body>
+    <script>
+    var item = document.getElementById("button");
+        function f1()
+        {
+           item.setAttribute("style", "background-color:blue;");
+        }
+        function f2()
+        {
+            item.setAttribute("style", "background-color:green;");
+        }
+        function f3()
+        {
+           document.write("you clicked paragraph");
+        }
+    </script>
+</html>
