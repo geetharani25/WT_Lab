@@ -1,0 +1,68 @@
+<html>
+<head>
+<style>
+   body{
+    background-image: url('fb.jpg');
+    background-size: cover;
+   }
+    input{
+        border-radius: 5px;
+        border-color:black;
+    background-color:white;
+    text-size-adjust:auto;
+    padding-bottom: 20px;
+    width:200px;
+    height: 50px;
+    text-align: center;
+    padding-top:5px;
+    }
+    h3{
+        color:rgb(68, 162, 224);
+    }
+    h2{
+        margin-top:100px;
+        text-align:center;
+        color:white;
+        font-family: inherit;
+        font-size:xx-large;
+    }
+    label{
+        display: block;
+        font-size:30px;
+        color:blue;
+        margin-left:10px;
+    }
+    table{
+       border-radius: 5%;
+        border:2px solid white;
+        background-color: lavender;
+    }
+    .s{
+         margin-left:160px;
+         color:white;
+         font-size:x-large;
+         background-color:blue;
+         width:120px;
+    }
+    .a{
+        color:rgb(68, 162, 224);
+    }
+</style>
+</head>
+<body>
+<form action="verify.php" method="post" >
+    <h2>Facebook Login</h2>
+<table align="center" cellspacing="0" cellpadding="10">
+          
+          <!-- <tr><td><label>User Name:</label></td>
+          <td><input type="text" name="uname" placeholder="Enter your name" required></td></tr> -->
+          <tr><td><label>Email Address:</label></td>
+          <td><input type="text" name="eid" placeholder="Enter your email" required></td></tr>
+          <tr><td><label>Password:</label></td>
+          <td><input type="password" name="pwd" placeholder="Enter your password" required></td></tr>
+          <tr><td><input class="s" type="submit" name="submit" value="submit"></td></tr>
+          <tr><td><h3>Not Registered?</h3><a href="form.html" target="_blank" class="a"><h4>signup</h4></a></td></tr>
+</table>
+</form>
+</body>
+</html>
